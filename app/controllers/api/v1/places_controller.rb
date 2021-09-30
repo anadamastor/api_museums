@@ -3,8 +3,10 @@ class Api::V1::PlacesController < ApplicationController
   
   def api_call
     #GET LAT LONG PARAMS FROM MAPBOX (BERLIN)
+    location = request.query_parameters
     puts "hi!"
-    render json: {messages: "hello"}
+    puts location
+    render json: {messages: location}
     # if params[:museums]
     #   lat = params[:lat]
     #   lng = params[:lng]
