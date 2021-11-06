@@ -1,5 +1,5 @@
 # api_museums
-Building my first API.
+Building my first API build in Ruby on Rails.
 
 This is the main structure of the API what will be used to return POIs in close proximity of the requested location (geolocation).
 
